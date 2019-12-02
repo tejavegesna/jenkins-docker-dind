@@ -8,7 +8,7 @@ RUN curl -fsSL https://download.docker.com/linux/debian/gpg | apt-key add - \
     && apt-get install  docker-ce=18.06.1~ce~3-0~ubuntu -yq
 
 RUN usermod -aG docker jenkins
-COPY plugins.txt /usr/share/jenkins/plugins.txt
+COPY ./plugins.txt /usr/share/jenkins/plugins.txt
 RUN /usr/local/bin/install-plugins.sh < /usr/share/jenkins/plugins.txt
 RUN usermod -aG docker jenkins
 USER root
