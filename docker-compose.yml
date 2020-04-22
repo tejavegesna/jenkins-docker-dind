@@ -1,0 +1,16 @@
+version: "3"
+services:
+  jenkins:
+    build:
+      context: ./jenkins
+      dockerfile: jenkinsmaster.Dockerfile
+    ports:
+      - "8080:8080"
+      - "50000:50000"
+    volumes:
+      - ./jenkins_home:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      JENKINS_HOME: "/var/jenkins_home"
+      JENKINS_SLAVE_AGENT_PORT: 50000
+      JAVA_OPTS: "-Dorg.eclipse.jetty.server.Request.maxFormContentSize=100000000  \t\t\t  -Dorg.apache.commons.jelly.tags.fmt.timeZone=America/Los_Angeles  \t\t\t  -Dhudson.diyChunking=false  \t\t\t  -Djenkins.install.runSetupWizard=false"
