@@ -1,139 +1,197 @@
-ace-editor:1.1
-amazon-ecr:1.6
-amazon-ecs:1.22
-ansicolor:0.6.2
-ant:1.10
-antisamy-markup-formatter:1.6
-apache-httpcomponents-client-4-api:4.5.5-3.0
-authentication-tokens:1.3
-aws-credentials:1.28
-aws-java-sdk:1.11.594
-aws-lambda:0.5.10
-basic-branch-build-strategies:1.3.2
-bitbucket-approve:1.0.3
-bitbucket:1.1.11
-blueocean-commons:1.19.0
-blueocean-config:1.19.0
-blueocean-core-js:1.19.0
-blueocean-dashboard:1.19.0
-blueocean-display-url:2.3.0
-blueocean-git-pipeline:1.19.0
-blueocean-jwt:1.19.0
-blueocean-pipeline-api-impl:1.19.0
-blueocean-pipeline-scm-api:1.19.0
-blueocean-rest-impl:1.19.0
-blueocean-rest:1.19.0
-blueocean-web:1.19.0
-bouncycastle-api:2.17
-branch-api:2.5.4
-build-pipeline-plugin:1.5.8
-build-timeout:1.19
-build-timestamp:1.0.3
-build-token-trigger:1.0.0
-chrome-frame-plugin:1.1
-chromedriver:1.2
-cloudbees-bitbucket-branch-source:2.4.6
-cloudbees-folder:6.9
-cobertura:1.14
-code-coverage-api:1.1.0
-command-launcher:1.3
-conditional-buildstep:1.3.6
-config-file-provider:3.6.2
-convert-to-pipeline:1.0
-credentials-binding:1.20
-credentials:2.3.0
-display-url-api:2.3.2
-docker-commons:1.15
-docker-java-api:3.0.14
-docker-plugin:1.1.7
-docker-workflow:1.19
-durable-task:1.30
-ec2:1.45
-email-ext:2.66
-external-monitor-job:1.7
-favorite:2.3.2
-git-client:2.8.5
-git-parameter:0.9.11
-git-server:1.8
-git:3.12.1
-github-api:1.95
-github-autostatus:3.5.0
-github-branch-source:2.5.7
-github:1.29.4
-groovy-label-assignment:1.2.0
-handlebars:1.1.1
-handy-uri-templates-2-api:2.1.7-1.0
-hashicorp-vault-plugin:2.5.0
-htmlpublisher:1.18
-jackson2-api:2.9.9.1
-jacoco:3.0.4
-javadoc:1.5
-jdk-tool:1.3
-jenkins-design-language:1.19.0
-jquery-detached:1.2.1
-jquery-ui:1.0.2
-jquery:1.12.4-1
-jsch:0.1.55.1
-junit:1.28
-ldap:1.20
-lockable-resources:2.5
-mailer:1.27
-matrix-auth:2.4.2
-matrix-project:1.14
-maven-plugin:3.4
-mercurial:2.8
-momentjs:1.1.1
-node-iterator-api:1.5.0
-pam-auth:1.5.1
-parameterized-trigger:2.35.2
-pipeline-aws:1.38
-pipeline-build-step:2.9
-pipeline-github-lib:1.0
-pipeline-github:2.5
-pipeline-githubnotify-step:1.0.4
-pipeline-graph-analysis:1.10
-pipeline-input-step:2.11
-pipeline-milestone-step:1.3.1
-pipeline-model-api:1.3.9
-pipeline-model-declarative-agent:1.1.1
-pipeline-model-definition:1.3.9
-pipeline-model-extensions:1.3.9
-pipeline-multibranch-defaults:2.1
-pipeline-rest-api:2.12
-pipeline-stage-step:2.3
-pipeline-stage-tags-metadata:1.3.9
-pipeline-stage-view:2.12
-pipeline-utility-steps:2.3.0
-plain-credentials:1.5
-pubsub-light:1.13
-resource-disposer:0.13
-role-strategy:2.14
-run-condition:1.2
-scm-api:2.6.3
-script-security:1.63
-shared-workspace:1.0.2
-sonar:2.9
-ssh-credentials:1.17.2
-ssh-slaves:1.30.2
-structs:1.20
-terraform:1.0.9
-thinBackup:1.9
-trilead-api
-timestamper:1.10
-token-macro:2.8
-unity3d-plugin:1.3
-variant:1.3
-windows-slaves:1.4
-workflow-aggregator:2.6
-workflow-api:2.37
-workflow-basic-steps:2.18
-workflow-cps-global-lib:2.15
-workflow-cps:2.74
-workflow-durable-task-step:2.34
-workflow-job:2.35
-workflow-multibranch:2.21
-workflow-scm-step:2.9
-workflow-step-api:2.20
-workflow-support:3.3
-ws-cleanup:0.37
-zentimestamp:4.2
+ace-editor: 1.1
+amazon-ecr: 1.136.v914ea_5948634
+amazon-ecs: 1.49
+ansicolor: 1.0.4
+ant: 511.v0a_a_1a_334f41b_
+antisamy-markup-formatter: 162.v0e6ec0fcfcf6
+apache-httpcomponents-client-4-api: 4.5.14-208.v438351942757
+apache-httpcomponents-client-5-api: 5.3.1-110.v77252fb_d4da_5
+asm-api: 9.7-33.v4d23ef79fcc8
+authentication-tokens: 1.119.v50285141b_7e1
+aws-credentials: 231.v08a_59f17d742
+aws-java-sdk-api-gateway: 1.12.753-463.v071a_97315959
+aws-java-sdk-autoscaling: 1.12.753-463.v071a_97315959
+aws-java-sdk-cloudformation: 1.12.753-463.v071a_97315959
+aws-java-sdk-cloudfront: 1.12.753-463.v071a_97315959
+aws-java-sdk-codebuild: 1.12.753-463.v071a_97315959
+aws-java-sdk-codedeploy: 1.12.753-463.v071a_97315959
+aws-java-sdk-ec2: 1.12.753-463.v071a_97315959
+aws-java-sdk-ecr: 1.12.753-463.v071a_97315959
+aws-java-sdk-ecs: 1.12.753-463.v071a_97315959
+aws-java-sdk-efs: 1.12.753-463.v071a_97315959
+aws-java-sdk-elasticbeanstalk: 1.12.753-463.v071a_97315959
+aws-java-sdk-elasticloadbalancingv2: 1.12.753-463.v071a_97315959
+aws-java-sdk-iam: 1.12.753-463.v071a_97315959
+aws-java-sdk-kinesis: 1.12.753-463.v071a_97315959
+aws-java-sdk-lambda: 1.12.753-463.v071a_97315959
+aws-java-sdk-logs: 1.12.753-463.v071a_97315959
+aws-java-sdk-minimal: 1.12.753-463.v071a_97315959
+aws-java-sdk-organizations: 1.12.753-463.v071a_97315959
+aws-java-sdk-secretsmanager: 1.12.753-463.v071a_97315959
+aws-java-sdk-sns: 1.12.753-463.v071a_97315959
+aws-java-sdk-sqs: 1.12.753-463.v071a_97315959
+aws-java-sdk-ssm: 1.12.753-463.v071a_97315959
+aws-java-sdk: 1.12.753-463.v071a_97315959
+aws-lambda: 0.5.10
+basic-branch-build-strategies: 81.v05e333931c7d
+bitbucket-approve: 1.0.3
+bitbucket: 252.v58422b_e544ea_
+blueocean-commons: 1.27.14
+blueocean-config: 1.27.14
+blueocean-core-js: 1.27.14
+blueocean-dashboard: 1.27.14
+blueocean-display-url: 2.4.3
+blueocean-git-pipeline: 1.27.14
+blueocean-jwt: 1.27.14
+blueocean-pipeline-api-impl: 1.27.14
+blueocean-pipeline-scm-api: 1.27.14
+blueocean-rest-impl: 1.27.14
+blueocean-rest: 1.27.14
+blueocean-web: 1.27.14
+bootstrap5-api: 5.3.3-1
+bouncycastle-api: 2.30.1.78.1-248.ve27176eb_46cb_
+branch-api: 2.1178.v969d9eb_c728e
+build-pipeline-plugin: 2.0.2
+build-timeout: 1.33
+build-timestamp: 1.0.3
+build-token-trigger: 1.0.0
+caffeine-api: 3.1.8-133.v17b_1ff2e0599
+checks-api: 2.2.0
+chrome-frame-plugin: 1.1
+chromedriver: 1.2
+cloud-stats: 336.v788e4055508b_
+cloudbees-bitbucket-branch-source: 888.v8e6d479a_1730
+cloudbees-folder: 6.928.v7c780211d66e
+cobertura: 1.17
+code-coverage-api: 4.99.0
+command-launcher: 115.vd8b_301cc15d0
+commons-compress-api: 1.26.1-2
+commons-lang3-api: 3.14.0-76.vda_5591261cfe
+commons-text-api: 1.12.0-129.v99a_50df237f7
+conditional-buildstep: 1.4.3
+config-file-provider: 973.vb_a_80ecb_9a_4d0
+convert-to-pipeline: 1.0
+coverage: 1.16.1
+credentials-binding: 681.vf91669a_32e45
+credentials: 1371.vfee6b_095f0a_3
+data-tables-api: 2.0.8-1
+display-url-api: 2.204.vf6fddd8a_8b_e9
+docker-commons: 443.v921729d5611d
+docker-java-api: 3.3.6-90.ve7c5c7535ddd
+docker-plugin: 1.6.2
+docker-workflow: 580.vc0c340686b_54
+durable-task: 568.v8fb_5c57e8417
+ec2: 1688.v8c07e01d657f
+echarts-api: 5.5.0-1
+eddsa-api: 0.3.0-4.v84c6f0f4969e
+email-ext: 1814.v404722f34263
+external-monitor-job: 215.v2e88e894db_f8
+favorite: 2.221.v19ca_666b_62f5
+font-awesome-api: 6.5.2-1
+forensics-api: 2.4.0
+git-client: 5.0.0
+git-parameter: 0.9.19
+git-server: 126.v0d945d8d2b_39
+git: 5.3.0
+github-api: 1.321-468.v6a_9f5f2d5a_7e
+github-autostatus: 3.6.2
+github-branch-source: 1793.v1831e9c68d77
+github: 1.40.0
+groovy-label-assignment: 1.2.0
+gson-api: 2.11.0-41.v019fcf6125dc
+handlebars: 3.0.8
+handy-uri-templates-2-api: 2.1.8-30.v7e777411b_148
+hashicorp-vault-plugin: 368.v48134f694db_f
+htmlpublisher: 1.36
+instance-identity: 185.v303dc7c645f9
+ionicons-api: 74.v93d5eb_813d5f
+jackson2-api: 2.17.0-379.v02de8ec9f64c
+jacoco: 3.3.6
+jakarta-activation-api: 2.1.3-1
+jakarta-mail-api: 2.1.3-1
+javadoc: 280.v050b_5c849f69
+javax-activation-api: 1.2.0-7
+javax-mail-api: 1.6.2-10
+jaxb: 2.3.9-1
+jdk-tool: 80.v8a_dee33ed6f0
+jenkins-design-language: 1.27.14
+jjwt-api: 0.11.5-112.ve82dfb_224b_a_d
+joda-time-api: 2.12.7-29.v5a_b_e3a_82269a_
+jquery-detached: 1.2.1
+jquery-ui: 1.0.2
+jquery: 1.12.4-1
+jquery3-api: 3.7.1-2
+jsch: 0.2.16-86.v42e010d9484b_
+json-api: 20240303-41.v94e11e6de726
+json-path-api: 2.9.0-58.v62e3e85b_a_655
+junit: 1284.vf75d778f98c5
+ldap: 725.v3cb_b_711b_1a_ef
+lockable-resources: 1255.vf48745da_35d0
+mailer: 472.vf7c289a_4b_420
+matrix-auth: 3.2.2
+matrix-project: 832.va_66e270d2946
+maven-plugin: 3.23
+mercurial: 1260.vdfb_723cdcc81
+mina-sshd-api-common: 2.13.1-117.v2f1a_b_66ff91d
+mina-sshd-api-core: 2.13.1-117.v2f1a_b_66ff91d
+momentjs: 1.1.1
+node-iterator-api: 55.v3b_77d4032326
+okhttp-api: 4.11.0-172.vda_da_1feeb_c6e
+pam-auth: 1.11
+parameterized-trigger: 806.vf6fff3e28c3e
+pipeline-aws: 1.45
+pipeline-build-step: 540.vb_e8849e1a_b_d8
+pipeline-github-lib: 61.v629f2cc41d83
+pipeline-github: 2.8-159.09e4403bc62f
+pipeline-githubnotify-step: 49.vf37bf92d2bc8
+pipeline-graph-analysis: 216.vfd8b_ece330ca_
+pipeline-groovy-lib: 727.ve832a_9244dfa_
+pipeline-input-step: 495.ve9c153f6067b_
+pipeline-milestone-step: 119.vdfdc43fc3b_9a_
+pipeline-model-api: 2.2205.vc9522a_9d5711
+pipeline-model-declarative-agent: 1.1.1
+pipeline-model-definition: 2.2205.vc9522a_9d5711
+pipeline-model-extensions: 2.2205.vc9522a_9d5711
+pipeline-multibranch-defaults: 2.1
+pipeline-rest-api: 2.34
+pipeline-stage-step: 312.v8cd10304c27a_
+pipeline-stage-tags-metadata: 2.2205.vc9522a_9d5711
+pipeline-stage-view: 2.34
+pipeline-utility-steps: 2.17.0
+plain-credentials: 183.va_de8f1dd5a_2b_
+plugin-util-api: 4.1.0
+prism-api: 1.29.0-15
+pubsub-light: 1.18
+resource-disposer: 0.23
+role-strategy: 743.v142ea_b_d5f1d3
+run-condition: 1.7
+scm-api: 696.v778d637b_a_762
+script-security: 1341.va_2819b_414686
+shared-workspace: 1.0.2
+snakeyaml-api: 2.2-121.v5a_68b_9300b_d4
+sonar: 2.17.2
+ssh-credentials: 343.v884f71d78167
+ssh-slaves: 2.973.v0fa_8c0dea_f9f
+sshd: 3.330.vc866a_8389b_58
+structs: 338.v848422169819
+terraform: 1.0.10
+thinBackup: 2.1.1
+timestamper: 1.27
+token-macro: 400.v35420b_922dcb_
+trilead-api: 2.147.vb_73cc728a_32e
+unity3d-plugin: 1.3
+variant: 60.v7290fc0eb_b_cd
+windows-slaves: 1.8.1
+workflow-aggregator: 600.vb_57cdd26fdd7
+workflow-api: 1332.vc21122317a_8e
+workflow-basic-steps: 1058.vcb_fc1e3a_21a_9
+workflow-cps-global-lib: 612.v55f2f80781ef
+workflow-cps: 3922.va_f73b_7c4246b_
+workflow-durable-task-step: 1364.v2fd76fb_6fd41
+workflow-job: 1400.v7fd111b_ec82f
+workflow-multibranch: 783.787.v50539468395f
+workflow-scm-step: 427.v4ca_6512e7df1
+workflow-step-api: 678.v3ee58b_469476
+workflow-support: 920.v59f71ce16f04
+ws-cleanup: 0.46
+zentimestamp: 4.2
